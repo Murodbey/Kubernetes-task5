@@ -26,9 +26,6 @@ spec:
         ports:
         - name: wordpress
           containerPort: 80
-        volumeMounts:
-        - name: wordpress-pv
-          mountPath: /var/www/html
   volumeClaimTemplates:
   - metadata:
       name: wp-pvc
