@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: wordpress-sts
-        image: wordpress:4.8-apache
+        image: wordpress:5.0.3-apache
         env:
         - name: WORDPRESS_DB_HOST
           value: mysql-wp
